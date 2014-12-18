@@ -1,3 +1,44 @@
+Container Days ATX - 2015
+=========================
+
+Contribution Guide
+------------------
+
+You need nodejs and npm installed.  If you don't want to bother, just run `vagrant up` to get it inside a VM.  These instructions assume you are using vagrant.
+
+Fork the repo and then set up development environment:
+
+```
+$ git clone https://github.com/<github-username>/2015.git cdatx-2015
+$ cd cdatx-2015
+$ git checkout -b my_working_branch
+$ vagrant up
+$ vagrant ssh
+$ cd /vagrant
+$ npm install
+$ npm run watch
+```
+
+Edit the content and view it on the preview URL provided from the last `npm run watch` command.
+
+Once you're happy with it you'll need to push your changes:
+
+```
+$ git push origin my_working_branch
+```
+
+Then create a Pull Request via github UI.
+
+Another member of the team will review the change and if acceptable will merge the PR in.
+
+Somebody will then need to deloy the new site which is done via `npm run deploy`.  We'll probably automate this behind a travis or drone job.
+
+
+
+
+README for Conf Boilerplate:
+============================
+
 *[Leia a documentação em Português](https://github.com/braziljs/conf-boilerplate/blob/master/README-pt.md)*
 
 ---
