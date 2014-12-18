@@ -1,5 +1,5 @@
 <h2 class="section-title"><%= @labels['contact'] %></h2>
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis ducimus neque amet corrupti ex temporibus similique.</p>
+<p>Contact the organizers: </p>
 <form method="post" action="contact.php" id="form" class="form">
   <div class="control-group control-group-name">
     <label for="name">Name</label>

@@ -7,27 +7,22 @@ module.exports = {
 
     // Conference info
     conf: {
-      name: "Conference name",
-      description: "Conference description",
-      date: "November 15",
+      name: "Container Days Austin 2015",
+      description: "Nobody puts Boydy in the container.",
+      date: "Feb 2015",
       // If your event is free, just comment this line
-      price: "$100",
-      venue: "Coco Bongo",
-      address: "Boulevard Kukulcan, 30",
-      city: "Cancún",
-      state: "Quintana"
+      price: "$ TBA",
+      venue: "TBA",
+      address: "Plfugerville",
+      city: "Austin",
+      state: "Texas"
     },
 
     // The Call To Action button at the header,
     // If you don't want this, just remove the callToAction property.
     callToAction: {
         text: "Register now!",
-        link: "http://eventick.com.br"
-    },
-
-    // "Fork me on GitHub", if you don't want this, just remove the forkButton property
-    forkButton: {
-        repository: "https://github.com/braziljs/conf-boilerplate"
+        link: "http://eventtickets.com"
     },
 
     // Site info
