@@ -1,6 +1,5 @@
 <h2 class="section-title"><%= @labels['schedule'] %></h2>
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+<p>Container Days Austin aims to be a lightweight event with a strong focus on attendee participation.  This schedule resembles that in its heavy emphasis on unconference sessions.</p>
 <div class="schedule-tbl">
   <table>
     <thead>

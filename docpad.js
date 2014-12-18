@@ -59,124 +59,105 @@ module.exports = {
     // The entire schedule
     schedule: [
       {
-        name: "Check-in / Breakfast",
-        time: "9h00"
+        name: "Registration",
+        time: "Friday, 5pm"
       },
       {
-        name: "Linus Torvalds",
-        photo: "themes/yellow-swan/img/speaker.jpg",
-        bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
-        company: "Linux Foundation",
-        link: {
-          href: "http://twitter.com/linus",
-          text: "@linus"
-        },
-        presentation: {
-          title: "Digging into a Linux Kernel",
-          description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
-          time: "10h00"
-        }
-      },
-      {
-        name: "Bill Gates",
-        photo: "themes/yellow-swan/img/speaker.jpg",
-        bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
-        company: "Microsoft",
-        link: {
-          href: "http://github.com/billy95",
-          text: "@billy95"
-        },
-        presentation: {
-          title: "Introducing Windows 12",
-          description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
-          time: "11h00"
-        }
-      },
-      {
-        name: "Lunch",
-        time: "12h00"
+        name: "Welcome",
+        time: "Friday, 7pm"
       },
       {
         name: "Chuck Norris",
         photo: "themes/yellow-swan/img/speaker.jpg",
-        bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
+        bio: "Chuck Norris is a well known expert in the Linux Containerization field",
         company: "Delta Command",
         link: {
           href: "http://twitter.com/littlechuck",
           text: "@littlechuck"
         },
         presentation: {
-          title: "How to kill a elephant with one finger",
-          description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
-          time: "13h00"
+          title: "Escaping from Containers with this one weird kick.",
+          description: "Charles Norris (  or Chuck to his friends ) will talk through how he combines his Karate skills with his deep understanding of the Linux Kernel to easily escape from a container and get root shell on the host.",
+          time: "Friday, 7:15pm"
         }
       },
       {
-        name: "Steve Jobs",
+        name: "Happy Hour",
+        time: "Friday, 8pm to 10pm"
+      },
+      {
+        name: "Breakfast and Early Unconference session ideas.",
+        time: "Saturday, 7:30am"
+      },
+      {
+        name: "Official Commencement",
         photo: "themes/yellow-swan/img/speaker.jpg",
-        bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
-        company: "Apple, Inc.",
+        time: "Saturday, 8:30am"
+      },
+      {
+        name: "InfoSec Taylor Swift",
+        photo: "themes/yellow-swan/img/speaker.jpg",
+        bio: "Taylor Swift is a well known Application Security expert.",
+        company: "Swift On Security",
         link: {
-          href: "http://github.com/stevie",
-          text: "@stevie"
+          href: "http://twitter.com/SwiftOnSecurity",
+          text: "@SwiftOnSecurity"
         },
         presentation: {
-          title: "Presenting iPad",
-          description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
-          time: "14h00"
+          title: "Secure that Container",
+          description: "How to make your containerized application so secure that not even Chuck Norris could hack it.",
+          time: "Saturday, 9:00am"
         }
       },
       {
-        name: "Coffee-break",
-        time: "15h00"
+        name: "Unconference Planning",
+        time: "Saturday, 9:45am"
       },
       {
-        name: "Mark Zuckerberg",
-        photo: "themes/yellow-swan/img/speaker.jpg",
-        bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
-        company: "Facebook",
-        link: {
-          href: "http://twitter.com/zuck",
-          text: "@zuck"
-        },
-        presentation: {
-          title: "Revealing Facebook Secrets",
-          description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
-          time: "16h00"
-        }
+        name: "Unconference Session 1",
+        time: "Saturday, 10:00am"
       },
       {
-        name: "Steve Wozniak",
-        photo: "themes/yellow-swan/img/speaker.jpg",
-        bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
-        company: "Apple, Inc.",
-        link: {
-          href: "http://twitter.com/woz",
-          text: "@woz"
-        },
-        presentation: {
-          title: "Why do I prefer Android over iPhone",
-          description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
-          time: "17h00"
-        }
+        name: "Unconference Session 2",
+        time: "Saturday, 11:00am"
+      },
+      {
+        name: "Lunch and Lean Coffee training.",
+        time: "Saturday, 12:00pm"
+      },
+      {
+        name: "Unconference Session 3",
+        time: "Saturday, 1:30pm"
+      },
+      {
+        name: "Unconference Session 4",
+        time: "Saturday, 2:30pm"
+      },
+      {
+        name: "Closing Circle",
+        time: "Saturday, 3:30pm"
+      },
+      {
+        name: "#beerops",
+        time: "Saturday, 4:00pm"
       }
     ],
 
     // List of Sponsors
     sponsors: [
       {
-        name: "Eventick",
-        logo: "themes/yellow-swan/img/sponsor.png",
-        url: "http://eventick.com.br"
+        name: "Stack Engine",
+        logo: "http://stackengine.com/wp-content/uploads/2014/04/StackEngine_Lo_FF1-e1398284107204.jpg",
+        url: "http://stackengine.com/"
       }
     ],
 
     // List of Partners
     partners: [
       {
-        name: "BrazilJS",
-        logo: "themes/yellow-swan/img/partner.png",
-        url: "http://braziljs.org"
+        name: "Stack Engine",
+        logo: "http://stackengine.com/wp-content/uploads/2014/04/StackEngine_Lo_FF1-e1398284107204.jpg",
+        url: "http://stackengine.com/"
       }
     ],
 
