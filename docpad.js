@@ -9,7 +9,7 @@ module.exports = {
     conf: {
       name: "Container Days Austin 2015",
       description: "Nobody puts Boydy in the container.",
-      date: "Feb 2015",
+      date: "27,28 March 2015",
       // If your event is free, just comment this line
       price: "$ 50",
       venue: "Hawaiian Falls",
