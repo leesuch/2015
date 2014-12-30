@@ -1,6 +1,4 @@
 <h2 class="section-title"><%= @labels['about'] %></h2>
 <p itemprop="description">Container Days is an unconference focussed on container technologies.</p>
 
-<p>Docker Docker Docker Docker Docker Docker Docker Docker Docker Docker Docker Docker Docker Docker Docker Docker Docker Docker Docker Docker Docker Docker Docker Docker Docker Docker Docker Docker Docker Docker Docker Docker Docker Docker Docker Docker Docker Docker Docker Docker Docker Docker Docker Docker Docker Docker Docker Docker Docker Docker Docker Docker Docker Docker Docker Docker Docker Docker Docker Docker Docker Docker Docker Docker Docker Docker Docker Docker Docker Docker Docker Docker Docker Docker </p>
-
-<p>Rocket?</p>
+<p>Container Days Austin is a day and a half unconference style gathering of people who are interested in container tech.   There will be two headline speakers and the rest of the even will be run unconference style. </p>

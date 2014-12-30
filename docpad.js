@@ -11,10 +11,10 @@ module.exports = {
       description: "Nobody puts Boydy in the container.",
       date: "Feb 2015",
       // If your event is free, just comment this line
-      price: "$ TBA",
-      venue: "TBA",
-      address: "Plfugerville",
-      city: "Austin",
+      price: "$ 50",
+      venue: "Hawaiian Falls",
+      address: "18500 N SH 130",
+      city: "Pflugerville",
       state: "Texas"
     },
 
