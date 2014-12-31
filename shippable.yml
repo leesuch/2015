@@ -12,5 +12,8 @@ node_js:
 - 0.10
 before_install:
 - npm install 
-- npm run watch
+script:
+- npm run generate
 - ls -lah out/
+# after_success:
+# - npm run deploy
