@@ -1,0 +1,16 @@
+notifications:
+  email:
+  - boyd@stackengine.com
+  - karthik@stackengine.com
+  - rsuch@w2ogroup.com
+  - username.taken@gmail.com
+branches:
+  only:
+  - master
+language: node_js
+node_js:
+- 0.10
+before_install:
+- npm install 
+- npm run watch
+- ls -lah out/
