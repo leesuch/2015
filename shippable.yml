@@ -4,6 +4,8 @@ notifications:
   - karthik@stackengine.com
   - rsuch@w2ogroup.com
   - username.taken@gmail.com
+env:
+  secure: jx3a5PlCCyxmNNU6wpsu9IlwoXvwlRr/pJreY7CKtx0syn/Vdbyn8ND5Vw227QaXj7eut3QLk9G8lH5bV078LcAuT0iNVGlPsEZtSiHMaqUhdNaGVQjBVIfCii0IC2mDjmRU34uDtQUZTdZYH6n9PB4nKYOLNg1n69PnuWGHznr+UewEb1cxi5gaXMlX9ZSvx7AncLmNxpXeUvWqxC6asVIFEMM0hkUi//emJQQuLLAIMXWxwQJ2A9OG9cbKrixcGTDTvxnj8lvwPysZGqSc7Dh6dTg5VhLU8LWPutyg6OAJEBGX9VR2zZRhgec1CjIORPZuW/yynF6KL6TETD5oSA==
 branches:
   only:
   - master
