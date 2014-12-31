@@ -12,13 +12,12 @@ module.exports = {
       date: "March 27 and 28, 2015",
       
       // If your event is free, just comment this line
-      price: "$50",
+      price: "$60",
       venue: "Hawaiian Falls",
       address: "18500 N SH 130",
       city: "Pflugerville",
       state: "Texas"
     },
-
     // The Call To Action button at the header,
     // If you don't want this, just remove the callToAction property.
     callToAction: {

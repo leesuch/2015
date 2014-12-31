@@ -15,5 +15,5 @@ before_install:
 script:
 - npm run generate
 - ls -lah out/
-# after_success:
-# - npm run deploy
+after_success:
+- npm run deploy
