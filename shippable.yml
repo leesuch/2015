@@ -14,9 +14,10 @@ node_js:
 - 0.10
 before_install:
 - npm install
-- git remote set-url origin $GIT_REMOTE_ORIGIN_URL 
 script:
 - npm run generate
 - ls -lah out/
 after_success:
+- git config --global url."git@github.com:".insteadOf "https://github.com/"
+- git remote set-url origin $GIT_REMOTE_ORIGIN_URL 
 - npm run deploy
