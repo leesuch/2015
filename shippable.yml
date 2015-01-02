@@ -13,11 +13,15 @@ language: node_js
 node_js:
 - 0.10
 before_install:
+- git remote add publish git@github.com:cdatx/2015.git
+- git subtree add --prefix out publish gh-pages --squash
+- rm -rf out
+- rm .gitignore
 - npm install
 script:
 - npm run generate
-- ls -lah out/
+
 after_success:
-- git config --global url."git@github.com:".insteadOf "https://github.com/"
-- git remote set-url origin $GIT_REMOTE_ORIGIN_URL 
-- npm run deploy
+- ls -lah out/
+- git commit -m 'deploy cdatx/2015 website'
+- git subtree push --prefix=public publish gh-pages
