@@ -1,6 +1,6 @@
 <h2 class="section-title"><%= @labels['about'] %></h2>
 <p itemprop="description">
-	Container Days is an un-conference style gathering meant to 
+	Container Days is an un-conference style gathering meant to
 	discuss the revolution of Docker, CoreOS and other light weight
 	virtualization technologies and their applications.
 </p>
@@ -14,5 +14,5 @@
 </p>
 
 <p>
-	Registration is coming soon.
+	Registration will be opening soon.
 </p>
