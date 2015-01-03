@@ -25,4 +25,4 @@ after_success:
 - ls -lah out/
 - git add out
 - git commit -m 'deploy cdatx/2015 website'
-- git subtree push --prefix=out publish gh-pages
+- git subtree push -f --prefix=out publish gh-pages 
