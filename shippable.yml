@@ -14,8 +14,8 @@ node_js:
 - 0.10
 before_install:
 - git remote add publish git@github.com:cdatx/2015.git
-- git subtree add --prefix out publish gh-pages --squash
 - rm -rf out
+- git subtree add --prefix out publish gh-pages --squash
 - rm .gitignore
 - npm install
 script:
@@ -25,4 +25,4 @@ after_success:
 - ls -lah out/
 - git add out
 - git commit -m 'deploy cdatx/2015 website'
-- git subtree push -f --prefix=out publish gh-pages 
+- git subtree push --prefix=out publish gh-pages || echo "cannot auto-deploy"
