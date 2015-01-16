@@ -22,7 +22,7 @@ module.exports = {
     // If you don't want this, just remove the callToAction property.
     callToAction: {
         text: "Register now!",
-        link: "http://eventtickets.com"
+        link: "https://www.eventbrite.com/e/container-days-austin-2015-tickets-15159477405"
     },
 
     // Site info
