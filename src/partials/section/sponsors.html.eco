@@ -1,4 +1,10 @@
 <h2 class="section-title"><%= @labels['sponsors'] %></h2>
+<p>
+  Sponsors make conferences go, but sponsors committed to the community are 
+  the ones who take risks on first time events. A great thanks to our 
+  sponsors for their contributions of money, time and expertise.
+</p>
+
 <ul class="sponsors-list">
 
 <% for sponsor in @sponsors: %>

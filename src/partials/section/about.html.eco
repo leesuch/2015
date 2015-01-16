@@ -1,6 +1,18 @@
 <h2 class="section-title"><%= @labels['about'] %></h2>
-<p itemprop="description">Container Days is an unconference focussed on container technologies.</p>
+<p itemprop="description">
+	Container Days is an un-conference style gathering meant to
+	discuss the revolution of Docker, CoreOS and other light weight
+	virtualization technologies and their applications.
+</p>
 
-<p>Docker Docker Docker Docker Docker Docker Docker Docker Docker Docker Docker Docker Docker Docker Docker Docker Docker Docker Docker Docker Docker Docker Docker Docker Docker Docker Docker Docker Docker Docker Docker Docker Docker Docker Docker Docker Docker Docker Docker Docker Docker Docker Docker Docker Docker Docker Docker Docker Docker Docker Docker Docker Docker Docker Docker Docker Docker Docker Docker Docker Docker Docker Docker Docker Docker Docker Docker Docker Docker Docker Docker Docker Docker Docker </p>
+<p>
+	Patterned closely after <a href="http://www.citconf.com/austin2014/">
+	CitCon</a> and <a href="http://www.devopsdays.org/events/2014-austin/">
+	DevOps Days</a>, Container Days provides a forum for all those interested
+	in all the technical, process and production ramifications of adopting
+	container style virtualization.
+</p>
 
-<p>Rocket?</p>
+<p>
+	Registration will be opening soon...
+</p>

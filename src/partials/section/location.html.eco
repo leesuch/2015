@@ -1,4 +1,17 @@
 <h2 class="section-title"><%= @labels['location'] %></h2>
+<p>
+	It may seem crazy, but this water park is the ideal space for an 
+	unconference. A beautiful great room, solid internet access and break
+	out rooms will allow attendees to spread out and truly take advantage
+	of the un-conference format.
+</p>
+
+<p>
+	It also doesn't hurt that Hawaiian Falls is providing a free water park 
+	admission this summer for each participant! Use some other confernence's 
+	t-shirt to keep the sun off!
+</p>
+
 
 <p itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
   <span itemprop="streetAddress"><%= @conf.address %>. </span>
@@ -6,4 +19,4 @@
   <span itemprop="addressRegion"> <%= @conf.state %></span>
 </p>
 
-<div id="map-canvas" class="location-area" data-address="<%= @conf.address %>"></div>
+<div id="map-canvas" class="location-area" data-address="Hawaiian Falls Pflugerville"></div>
