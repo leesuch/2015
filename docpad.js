@@ -41,8 +41,8 @@ module.exports = {
       'speakers',
       'schedule',
       'sponsors',
-      'partners'
-      // 'contact'
+      'partners',
+      'contact'
     ],
 
     // Labels which you can translate to other languages
@@ -77,17 +77,11 @@ module.exports = {
         }
       },
       {
-        name: "Chuck Norris",
-        photo: "https://pbs.twimg.com/profile_images/429260374051782656/_Ri4gfyZ_400x400.jpeg",
-        bio: "Chuck Norris is a well known expert in the Linux Containerization field",
-        company: "Delta Command",
-        link: {
-          href: "https://twitter.com/CNorrisLegend",
-          text: "@CNorrisLegend"
-        },
+        name: "Guest Speaker",
+        photo: "themes/yellow-swan/img/guestspeaker_yellow.jpg",
         presentation: {
-          title: "Escaping from Containers with this one weird kick.",
-          description: "Charles Norris (  or Chuck to his friends ) will talk through how he combines his Karate skills with his deep understanding of the Linux Kernel to easily escape from a container and get root shell on the host.",
+          title: "Opening Guest Speaker",
+          description: "Our guest speaker is a respected pillar in the containerization field and is eager to share key insights and expertise.",
           time: "Friday, 6:45pm"
         }
       },
@@ -118,21 +112,15 @@ module.exports = {
         presentation: {
           title: "Opening Circle Reprise",
           description: "Rules, Leading a Talk, Attending a Talk",
-          time: "Friday, 9:15am"
+          time: "Saturday, 9:15am"
         }
       },
       {
-        name: "InfoSec Taylor Swift",
-        photo: "https://pbs.twimg.com/profile_images/548745207114506240/TgePWZlV_400x400.jpeg",
-        bio: "Taylor Swift is a well known Application Security expert.",
-        company: "Swift On Security",
-        link: {
-          href: "http://twitter.com/SwiftOnSecurity",
-          text: "@SwiftOnSecurity"
-        },
+        name: "Guest Speaker",
+        photo: "themes/yellow-swan/img/guestspeaker_yellow.jpg",
         presentation: {
-          title: "Secure that Container",
-          description: "How to make your containerized application so secure that not even Chuck Norris could hack it.",
+          title: "Day Two Guest Speaker",
+          description: "Our guest speaker is a respected pillar in the containerization field and is eager to share key insights and expertise.",
           time: "Saturday, 9:30am"
         }
       },

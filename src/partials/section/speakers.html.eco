@@ -1,9 +1,7 @@
 <h2 class="section-title"><%= @labels['speakers'] %></h2>
 <p>
   DevOps Days Austin organizers Ernest Mueller and Boyd Hemphill will be hosting
-  the event Friday and Saturday.  Speakers TBA and TBA2 are pillars in their
-  respective areas of expertise in the containerization field and will flavor
-  the topics of the conference with their talks and their expertise.
+  the event Friday and Saturday.
 </p>
 <ul class="speakers-list">
 <% for speaker in @schedule: %>

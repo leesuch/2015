@@ -4,7 +4,9 @@
   the ones who take risks on first time events. A great thanks to our 
   sponsors for their contributions of money, time and expertise.
 </p>
-
+<p>
+ Interested in becoming a sponsor?  Email <a href="mailto:container-days-austin-organizers@googlegroups.com">container-days-austin-organizers@googlegroups.com</a>
+</p>
 <ul class="sponsors-list">
 
 <% for sponsor in @sponsors: %>

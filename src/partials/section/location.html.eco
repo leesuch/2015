@@ -1,8 +1,8 @@
 <h2 class="section-title"><%= @labels['location'] %></h2>
 <p>
-	It may seem crazy, but this water park is the ideal space for an 
+	It may seem crazy, but Hawaiian Falls water park is the ideal space for an 
 	unconference. A beautiful great room, solid internet access and break
-	out rooms will allow attendees to spread out and truly take advantage
+	out rooms allow attendees to spread out and truly take advantage
 	of the un-conference format.
 </p>
 
