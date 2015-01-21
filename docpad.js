@@ -160,6 +160,11 @@ module.exports = {
         name: "StackEngine",
         logo: "http://stackengine.com/wp-content/uploads/2014/04/StackEngine_Lo_FF1-e1398284107204.jpg",
         url: "http://stackengine.com/"
+      },
+      {
+        name: "W2O",
+        logo: "themes/yellow-swan/img/w2o_logo.jpg",
+        url: "http://w2ogroup.com/"
       }
     ],
 

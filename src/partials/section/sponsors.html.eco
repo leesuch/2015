@@ -5,13 +5,13 @@
   sponsors for their contributions of money, time and expertise.
 </p>
 <p>
- Interested in becoming a sponsor?  Email <a href="mailto:container-days-austin-organizers@googlegroups.com">container-days-austin-organizers@googlegroups.com</a>
+ Interested in becoming a sponsor?  Email <a href="mailto:container-days-austin-organizers@googlegroups.com">container-days-austin-organizers@googlegroups.com</a> for details on how to sponsor a meal, reception, fun tickets and more.
 </p>
 <ul class="sponsors-list">
 
 <% for sponsor in @sponsors: %>
   <li class="sponsor-item" itemscope itemtype="http://schema.org/Organization">
-    <a href="<%= sponsor.url %>" class="sponsor-logo sponsor--link" itemprop="url">
+    <a href="<%= sponsor.url %>" class="sponsor-logo sponsor--link" itemprop="url" target="_blank">
       <img src="<%= sponsor.logo %>" alt="<%= sponsor.name %>" class="photo" itemprop="image">
     </a>
   </li>
